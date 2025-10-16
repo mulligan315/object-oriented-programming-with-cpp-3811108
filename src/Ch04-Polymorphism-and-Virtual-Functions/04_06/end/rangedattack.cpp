@@ -2,9 +2,12 @@
 
 RangedAttack::RangedAttack(const std::string &name, int range)
     // TODO: Initialize base class
-    : rangeValue(range)
+    : Ability(name),
+    rangeValue(range)
 {
 }
-
-// TODO: Override use()
-// TODO: Override describe()
+void RangedAttack::use() const
+{
+    std::cout << "Range: " << rangeValue << "/n"
+              << "Firing " << toLower(abilityName) << " beam!" << std::endl;
+}

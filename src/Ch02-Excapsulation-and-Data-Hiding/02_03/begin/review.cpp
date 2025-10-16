@@ -19,7 +19,7 @@ void Review::displayDetails() const
 
 void Review::setRating(unsigned int r)
 {
-  if (r < 1 || r > 5)
+  if (r < 1 or r > 5)
   {
     throw std::invalid_argument("Rating must be between 1 and 5");
   }

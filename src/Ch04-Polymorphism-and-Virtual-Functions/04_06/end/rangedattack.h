@@ -8,8 +8,8 @@ class RangedAttack : public Ability
 public:
   RangedAttack(const std::string &name, int range);
 
-  // TODO: Override use()
-  // TODO: Override describe()
+  void use() const;
+  void describe() const;
 
 private:
   int rangeValue; // Range in meters

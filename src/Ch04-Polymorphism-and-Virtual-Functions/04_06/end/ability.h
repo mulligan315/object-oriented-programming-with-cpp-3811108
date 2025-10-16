@@ -16,6 +16,7 @@ public:
 
 protected:
   std::string abilityName;
+  std::string toLower(const std::string &str) const;
 };
 
 #endif
