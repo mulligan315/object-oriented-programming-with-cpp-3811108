@@ -13,6 +13,6 @@ DefensiveAbility::~DefensiveAbility()
 
 void DefensiveAbility::use() const
 {
-    std::cout << "Protection: " << protectionAmount << "/n"
+    std::cout << "Protection: " << protectionAmount << "\n"
                 << "Activating defensive " << toLower(abilityName) << "!" << std::endl;
 }

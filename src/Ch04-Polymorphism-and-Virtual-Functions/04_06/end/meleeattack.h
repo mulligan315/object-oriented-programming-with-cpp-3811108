@@ -7,7 +7,7 @@ class MeleeAttack : public Ability
 {
 public:
   MeleeAttack(const std::string &name, int force);
-
+  ~MeleeAttack();
   void use() const;
   
 

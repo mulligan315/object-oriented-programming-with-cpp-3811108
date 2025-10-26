@@ -14,10 +14,11 @@ void Ability::describe() const
 {
   std::cout << "Ability: " << abilityName << std::endl;
 }
-std::string Ability::toLower(const std::string &str) const
+std::string Ability::toLower(const std::string &str)
 {
-  std::transform(str.begin(), str.end(), str.begin(),
+  std:: string strcopy {str};
+  std::transform(strcopy.begin(), strcopy.end(), strcopy.begin(),
                  [](unsigned char c)
                  { return std::tolower(c); });
-  return str;
+  return strcopy;
 }
