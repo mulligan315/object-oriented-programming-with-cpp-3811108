@@ -1,4 +1,4 @@
-#include "mathfile.cpp"
+#include "mathfile.h"
 #include <iostream>
 
 int main()
