@@ -7,8 +7,12 @@
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
+            "compilerArgs": [
+                "-Wall"
+            ],
             "cStandard": "c17",
-            "intelliSenseMode": "linux-clang-x64"
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++20"
         }
     ],
     "version": 4

@@ -6,6 +6,7 @@
       "command": "/usr/bin/g++",
       "args": [
         "-std=c++20",
+        "-Wall",
         "-fdiagnostics-color=always",
         "-g",
         "*.cpp",
@@ -30,6 +31,7 @@
       "command": "/usr/bin/g++-10",
       "args": [
         "-std=c++20",
+        "-Wall",
         "-fdiagnostics-color=always",
         "-g",
         "${file}",
